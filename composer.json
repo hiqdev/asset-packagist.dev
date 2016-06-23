@@ -3,7 +3,7 @@
     "type": "project",
     "description": "asset-packagist.dev",
     "keywords": [],
-    "homepage": "http://asset-packagist.dev/",
+    "homepage": "http://asset-packagist.org/",
     "license": "BSD-3-Clause",
     "support": {
         "email": "support@hiqdev.com",

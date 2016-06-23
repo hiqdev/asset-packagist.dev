@@ -1,6 +1,6 @@
 package:
     name:           asset-packagist.dev
-    homepage:       http://asset-packagist.dev/
+    homepage:       http://asset-packagist.org/
     namespace:      hiqdev\assetpackagistsite
 
 hisite:
