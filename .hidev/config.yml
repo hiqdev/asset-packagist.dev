@@ -1,0 +1,8 @@
+package:
+    name:           asset-packagist.dev
+    homepage:       http://asset-packagist.dev/
+    namespace:      hiqdev\assetpackagistsite
+
+hisite:
+    vhost:
+        ip: 127.0.0.1
