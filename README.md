@@ -10,11 +10,20 @@ asset-packagist.dev
 
 ## Installation
 
-The preferred way to install this project is through [composer](http://getcomposer.org/download/).
+Use following script:
 
 ```sh
-php composer.phar create-project "hiqdev/asset-packagist.dev:*" directory2install
+git clone https://github.com/hiqdev/asset-packagist.dev asset-packagist-directory
+cd asset-packagist-directory
+composer update
+./vendor/bin/hidev install
+./vendor/bin/hidev asset-package/update-all
 ```
+
+Known bugs:
+
+- `composer create-project` doesn't work by a strange reason :(
+- excessive red error messages 'Couldn't read ...' are unimportant
 
 ## License
 
