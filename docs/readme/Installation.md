@@ -5,11 +5,12 @@ git clone https://github.com/hiqdev/asset-packagist.dev asset-packagist-director
 cd asset-packagist-directory
 composer update
 ./vendor/bin/hidev install
+sudo ./vendor/bin/hidev deploy
 ./vendor/bin/hidev asset-package/update-all
 ```
 
 Known bugs:
 
 - `composer create-project` doesn't work by a strange reason :(
-- excessive red error messages 'Couldn't read ...' are unimportant
+- just skip red error messages 'Couldn't read ...', the are unimportant
 
