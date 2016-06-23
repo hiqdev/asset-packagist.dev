@@ -10,7 +10,7 @@ asset-packagist.dev
 
 ## Installation
 
-Use following script:
+Use the following script:
 
 ```sh
 git clone https://github.com/hiqdev/asset-packagist.dev asset-packagist-directory
