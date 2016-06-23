@@ -6,3 +6,7 @@ package:
 hisite:
     vhost:
         ip: 127.0.0.1
+
+deploy:
+    before:
+        - nginx/deploy
