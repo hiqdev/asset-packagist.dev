@@ -13,6 +13,9 @@ return [
     'components' => [
         'themeManager' => [
             'defaultTheme' => 'original',
+            'viewPaths' => [
+                '@hiqdev/sites/assetpackagistdev/views',
+            ],
         ],
     ],
 ];

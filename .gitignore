@@ -35,3 +35,6 @@ composer.phar
 php-cs-fixer.phar
 phpunit-skelgen.phar
 phpunit.phar
+
+# Local
+src/config/params-local.php
