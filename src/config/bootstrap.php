@@ -27,8 +27,6 @@ if (!defined('HISITE_VENDOR_DIR')) {
     require_once HISITE_VENDOR_DIR . '/yiisoft/yii2/Yii.php';
 
     Yii::setAlias('@root', dirname(dirname(__DIR__)));
-    Yii::setAlias('@hisite', dirname(__DIR__));
     Yii::setAlias('@vendor', HISITE_VENDOR_DIR);
-    Yii::setAlias('@hiqdev/assetpackagistsite', dirname(__DIR__));
-    Yii::setAlias('@composer', dirname(dirname(__DIR__)));
+    Yii::setAlias('@hiqdev/sites/assetpackagistdev', dirname(__DIR__));
 }

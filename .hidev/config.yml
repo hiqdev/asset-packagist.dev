@@ -1,11 +1,11 @@
 package:
     name:           asset-packagist.dev
     homepage:       http://asset-packagist.org/
-    namespace:      hiqdev\assetpackagistsite
+    namespace:      hiqdev\sites\assetpackagistdev
 
 hisite:
     vhost:
-        ip: 127.0.0.1
+        domain:     dev.asset-packagist.org
 
 deploy:
     before:

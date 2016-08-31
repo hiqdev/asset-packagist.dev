@@ -9,4 +9,10 @@
  * @copyright Copyright (c) 2016, HiQDev (http://hiqdev.com/)
  */
 
-return [];
+return [
+    'components' => [
+        'themeManager' => [
+            'defaultTheme' => 'original',
+        ],
+    ],
+];

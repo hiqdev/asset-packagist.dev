@@ -13,6 +13,10 @@
 Thumbs.db
 nbproject
 
+# HiSite directories
+/runtime/*
+/web/assets/*
+
 # php-cs-fixer cache
 .php_cs.cache
 
@@ -22,14 +26,11 @@ vendor
 # composer lock files
 composer.lock
 
-# HiSite directories
-/runtime/*
-/web/assets/*
-
 # phpunit generated files
 coverage.clover
 
 # PHARs
+chkipper.phar
 composer.phar
 php-cs-fixer.phar
 phpunit-skelgen.phar

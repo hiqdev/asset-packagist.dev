@@ -39,7 +39,15 @@
         }
     ],
     "require": {
-        "hiqdev/asset-packagist": "dev-master"
+        "hiqdev/yii2-language": "dev-master",
+        "hiqdev/yii2-pnotify": "dev-master",
+        "hiqdev/yii2-theme-flat": "dev-master",
+        "hiqdev/yii2-theme-dataserv": "dev-master",
+        "hiqdev/yii2-theme-original": "dev-master",
+        "hiqdev/yii2-menumanager": "dev-master",
+        "hiqdev/yii2-thememanager": "dev-master",
+        "hiqdev/asset-packagist": "dev-master",
+        "hiqdev/yii2-asset-hiqdev": "dev-master"
     },
     "require-dev": {
         "hiqdev/hidev": "dev-master",
@@ -49,8 +57,7 @@
     },
     "autoload": {
         "psr-4": {
-            "hiqdev\\assetpackagistsite\\": "src",
-            "hiqdev\\assetPackagistsite\\": "src"
+            "hiqdev\\sites\\assetpackagistdev\\": "src"
         }
     },
     "extra": {
