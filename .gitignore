@@ -17,14 +17,14 @@ nbproject
 /runtime/*
 /web/assets/*
 
-# php-cs-fixer cache
-.php_cs.cache
-
 # vendor dirs
 vendor
 
 # composer lock files
 composer.lock
+
+# php-cs-fixer cache
+.php_cs.cache
 
 # phpunit generated files
 coverage.clover

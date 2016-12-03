@@ -12,4 +12,5 @@
 return [
     'cookieValidationKey'   => '@3sdf234-2#@WF-25s#adt',
     'debug_allowed_ips'     => ['127.0.0.1'],
+    'db.password'           => '',
 ];
