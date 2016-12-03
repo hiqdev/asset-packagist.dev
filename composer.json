@@ -72,6 +72,7 @@
             "hidev": "src/config/hidev.php"
         }
     },
+    "minimum-stability": "dev",
     "repositories": [
         {
             "type": "composer",
