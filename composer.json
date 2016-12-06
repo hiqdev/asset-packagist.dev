@@ -39,22 +39,16 @@
         }
     ],
     "require": {
-        "hiqdev/hisite-core": "dev-master",
+        "yiisoft/yii2": "dev-master",
+        "zhuravljov/yii2-queue": "dev-master",
         "hiqdev/asset-packagist": "dev-master",
-        "hiqdev/yii2-language": "dev-master",
-        "hiqdev/yii2-pnotify": "dev-master",
-        "hiqdev/yii2-theme-flat": "dev-master",
-        "hiqdev/yii2-theme-agency": "dev-master",
-        "hiqdev/yii2-theme-original": "dev-master",
-        "hiqdev/yii2-menumanager": "dev-master",
-        "hiqdev/yii2-thememanager": "dev-master",
-        "hiqdev/yii2-asset-hiqdev": "dev-master"
+        "hiqdev/yii2-asset-hiqdev": "<2.0"
     },
     "require-dev": {
         "hiqdev/hidev": "dev-master",
         "hiqdev/hidev-php": "<2.0",
         "hiqdev/hidev-hisite": "<2.0",
-        "hiqdev/hidev-vendor": "<2.0"
+        "hiqdev/hidev-hiqdev": "<2.0"
     },
     "autoload": {
         "psr-4": {
@@ -72,7 +66,6 @@
             "hidev": "src/config/hidev.php"
         }
     },
-    "minimum-stability": "dev",
     "repositories": [
         {
             "type": "composer",
