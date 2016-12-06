@@ -1,6 +1,5 @@
 <?php
-
-/*
+/**
  * asset-packagist.dev
  *
  * @link      http://asset-packagist.org/
