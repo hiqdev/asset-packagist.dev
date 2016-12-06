@@ -13,8 +13,8 @@ return [
     'components' => [
         'themeManager' => [
             'defaultTheme' => 'original',
-            'viewPaths' => [
-                '@hiqdev/sites/assetpackagistdev/views',
+            'pathMap' => [
+                '$themedViewPaths' => ['@hiqdev/sites/assetpackagistdev/views'],
             ],
         ],
     ],
