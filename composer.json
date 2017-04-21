@@ -22,19 +22,19 @@
         {
             "name": "Dmitry Naumenko",
             "role": "Lead backend developer",
-            "email": "silverfire@hiqdev.com",
+            "email": "d.naumenko.a@gmail.com",
             "homepage": "http://silverfire.me/"
         },
         {
             "name": "Andrey Klochok",
             "role": "Lead frontend developer",
-            "email": "tafid@hiqdev.com",
+            "email": "andreyklochok@gmail.com",
             "homepage": "http://hiqdev.com/"
         },
         {
             "name": "Yuriy Myronchuk",
             "role": "QA Lead",
-            "email": "bladeroot@hiqdev.com",
+            "email": "bladeroot@gmail.com",
             "homepage": "http://hiqdev.com/"
         }
     ],
@@ -47,12 +47,12 @@
         "hiqdev/hidev-php": "<2.0",
         "hiqdev/hidev-hiqdev": "<2.0"
     },
-    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "hiqdev\\sites\\assetpackagistdev\\": "src"
         }
     },
+    "minimum-stability": "dev",
     "extra": {
         "config-plugin": {
             "params": [
