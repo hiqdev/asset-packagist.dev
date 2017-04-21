@@ -39,17 +39,15 @@
         }
     ],
     "require": {
-        "yiisoft/yii2": "dev-master",
-        "zhuravljov/yii2-queue": "dev-master",
         "hiqdev/asset-packagist": "dev-master",
         "hiqdev/yii2-asset-hiqdev": "<2.0"
     },
     "require-dev": {
         "hiqdev/hidev": "dev-master",
         "hiqdev/hidev-php": "<2.0",
-        "hiqdev/hidev-hisite": "<2.0",
         "hiqdev/hidev-hiqdev": "<2.0"
     },
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "hiqdev\\sites\\assetpackagistdev\\": "src"
@@ -57,12 +55,10 @@
     },
     "extra": {
         "config-plugin": {
-            "defines": "src/config/defines.php",
             "params": [
                 "src/config/params.php",
                 "?src/config/params-local.php"
             ],
-            "hisite": "src/config/hisite.php",
             "hidev": "src/config/hidev.php"
         }
     },
