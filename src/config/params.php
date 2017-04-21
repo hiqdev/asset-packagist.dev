@@ -10,6 +10,9 @@
 
 return [
     'cookieValidationKey'   => null,
-    'debug_allowed_ips'     => ['127.0.0.1'],
+
+    'debug.enabled'         => false,
+    'debug.allowedIps'      => ['127.0.0.1'],
+
     'db.password'           => null,
 ];
