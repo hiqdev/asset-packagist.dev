@@ -48,3 +48,4 @@ ocular.phar
 # local configuration
 /.env
 /src/config/params-local.php
+/ssl
