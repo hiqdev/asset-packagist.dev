@@ -1,7 +1,7 @@
 {
-    "name": "hiqdev/asset-packagist.dev",
+    "name": "hiqdev/asset-packagist.org",
     "type": "project",
-    "description": "asset-packagist.dev",
+    "description": "asset-packagist.org",
     "keywords": [],
     "homepage": "http://asset-packagist.org/",
     "license": "BSD-3-Clause",

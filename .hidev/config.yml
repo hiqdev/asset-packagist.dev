@@ -1,12 +1,8 @@
 package:
-    name:           asset-packagist.dev
+    name:           asset-packagist.org
     homepage:       http://asset-packagist.org/
-    namespace:      hiqdev\sites\assetpackagistdev
 
-hisite:
+webapp:
     vhost:
-        domain:     dev.asset-packagist.org
-
-deploy:
-    before:
-        - nginx/deploy
+        ssl:        true
+        domains:    $_ENV['HOSTS']
