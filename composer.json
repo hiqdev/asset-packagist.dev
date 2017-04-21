@@ -50,7 +50,7 @@
     },
     "autoload": {
         "psr-4": {
-            "hiqdev\\sites\\assetpackagistdev\\": "src"
+            "hiqdev\\sites\\assetpackagistorg\\": "src"
         }
     },
     "minimum-stability": "dev",
