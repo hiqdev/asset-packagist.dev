@@ -40,6 +40,7 @@
     ],
     "require": {
         "hiqdev/asset-packagist": "dev-master",
+        "hiqdev/yii2-yandex-metrika": "<2.0",
         "hiqdev/yii2-asset-hiqdev": "<2.0"
     },
     "require-dev": {
