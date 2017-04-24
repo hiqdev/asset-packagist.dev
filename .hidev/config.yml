@@ -4,5 +4,5 @@ package:
 
 webapp:
     vhost:
-        ssl:        true
+        ssl:        $_ENV['SSL']
         domains:    $_ENV['HOSTS']
