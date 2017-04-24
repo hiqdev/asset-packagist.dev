@@ -40,13 +40,14 @@
     ],
     "require": {
         "hiqdev/asset-packagist": "dev-master",
-        "hiqdev/yii2-yandex-metrika": "<2.0",
-        "hiqdev/yii2-asset-hiqdev": "<2.0"
+        "hiqdev/yii2-theme-original": "~0.1",
+        "hiqdev/yii2-yandex-metrika": "~0.1",
+        "hiqdev/yii2-asset-hiqdev": "~0.2"
     },
     "require-dev": {
         "hiqdev/hidev": "dev-master",
-        "hiqdev/hidev-php": "<2.0",
-        "hiqdev/hidev-hiqdev": "<2.0"
+        "hiqdev/hidev-php": "~0.4",
+        "hiqdev/hidev-hiqdev": "~0.4"
     },
     "autoload": {
         "psr-4": {
