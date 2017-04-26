@@ -15,4 +15,9 @@ return [
     'debug.allowedIps'      => ['127.0.0.1'],
 
     'db.password'           => null,
+
+    'sentry.enabled'        => false,
+    'monitoring.flag'       => hiqdev\yii2\monitoring\Module::FLAG_DOMAIN,
+    'monitoring.email.to'   => null,
+    'monitoring.email.from' => null,
 ];

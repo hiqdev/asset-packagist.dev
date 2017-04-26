@@ -42,7 +42,9 @@
         "hiqdev/asset-packagist": "dev-master",
         "hiqdev/yii2-theme-original": "~0.1",
         "hiqdev/yii2-yandex-metrika": "~0.1",
-        "hiqdev/yii2-asset-hiqdev": "~0.2"
+        "hiqdev/yii2-asset-hiqdev": "~0.2",
+        "hiqdev/yii2-monitoring": "*@dev",
+        "mito/yii2-sentry": "*"
     },
     "require-dev": {
         "hiqdev/hidev": "dev-master",
@@ -60,6 +62,9 @@
             "params": [
                 "src/config/params.php",
                 "?src/config/params-local.php"
+            ],
+            "hidev": [
+                "src/config/hidev.php"
             ]
         }
     },
