@@ -2,7 +2,6 @@
     "name": "hiqdev/asset-packagist.org",
     "type": "project",
     "description": "asset-packagist.org",
-    "keywords": [],
     "homepage": "http://asset-packagist.org/",
     "license": "BSD-3-Clause",
     "support": {
@@ -48,9 +47,10 @@
     },
     "require-dev": {
         "hiqdev/hidev": "dev-master",
-        "hiqdev/hidev-php": "~0.4",
-        "hiqdev/hidev-hiqdev": "~0.4"
+        "hiqdev/hidev-php": "~0.6",
+        "hiqdev/hidev-hiqdev": "~0.6"
     },
+    "keywords": [],
     "autoload": {
         "psr-4": {
             "hiqdev\\sites\\assetpackagistorg\\": "src"
