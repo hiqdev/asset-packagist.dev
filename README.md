@@ -56,22 +56,21 @@ following command:
 ./yii asset-package/update bower jquery
 ```
 
-## Working with queues
+### Working with queues
 
 Some operations such as package update will push tasks to queue.
 Run queue to execute that tasks:
 
 ```bash
-./yii queue/run 
+./yii queue/run
 ```
 
 It is recommended to run all console commands from the same user you are running the web application
-to prevent permissions problems in `web/p` directory. 
+to prevent permissions problems in `web/p` directory.
 
-## Known bugs:
+### Known bugs:
 
-- `composer create-project` doesn't work by a strange reason :(
-- just skip red error messages `Couldn't read ...`, the are unimportant
+Just skip red error messages `Couldn't read ...`, they are unimportant.
 
 ## License
 
