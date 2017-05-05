@@ -1,7 +1,7 @@
 {
-    "name": "hiqdev/asset-packagist.org",
+    "name": "hiqdev/asset-packagist.dev",
     "type": "yii2-extension",
-    "description": "asset-packagist.org",
+    "description": "asset-packagist.dev",
     "homepage": "http://asset-packagist.org/",
     "license": "BSD-3-Clause",
     "support": {

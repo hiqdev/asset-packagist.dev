@@ -1,6 +1,6 @@
 package:
     type:           yii2-extension
-    name:           asset-packagist.org
+    name:           asset-packagist.dev
     homepage:       http://asset-packagist.org/
 
 webapp:

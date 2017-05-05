@@ -1,11 +1,11 @@
-# asset-packagist.org
+# asset-packagist.dev
 
-[![Latest Stable Version](https://poser.pugx.org/hiqdev/asset-packagist.org/v/stable)](https://packagist.org/packages/hiqdev/asset-packagist.org)
-[![Total Downloads](https://poser.pugx.org/hiqdev/asset-packagist.org/downloads)](https://packagist.org/packages/hiqdev/asset-packagist.org)
-[![Build Status](https://img.shields.io/travis/hiqdev/asset-packagist.org.svg)](https://travis-ci.org/hiqdev/asset-packagist.org)
-[![Scrutinizer Code Coverage](https://img.shields.io/scrutinizer/coverage/g/hiqdev/asset-packagist.org.svg)](https://scrutinizer-ci.com/g/hiqdev/asset-packagist.org/)
-[![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/hiqdev/asset-packagist.org.svg)](https://scrutinizer-ci.com/g/hiqdev/asset-packagist.org/)
-[![Dependency Status](https://www.versioneye.com/php/hiqdev:asset-packagist.org/dev-master/badge.svg)](https://www.versioneye.com/php/hiqdev:asset-packagist.org/dev-master)
+[![Latest Stable Version](https://poser.pugx.org/hiqdev/asset-packagist.dev/v/stable)](https://packagist.org/packages/hiqdev/asset-packagist.dev)
+[![Total Downloads](https://poser.pugx.org/hiqdev/asset-packagist.dev/downloads)](https://packagist.org/packages/hiqdev/asset-packagist.dev)
+[![Build Status](https://img.shields.io/travis/hiqdev/asset-packagist.dev.svg)](https://travis-ci.org/hiqdev/asset-packagist.dev)
+[![Scrutinizer Code Coverage](https://img.shields.io/scrutinizer/coverage/g/hiqdev/asset-packagist.dev.svg)](https://scrutinizer-ci.com/g/hiqdev/asset-packagist.dev/)
+[![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/hiqdev/asset-packagist.dev.svg)](https://scrutinizer-ci.com/g/hiqdev/asset-packagist.dev/)
+[![Dependency Status](https://www.versioneye.com/php/hiqdev:asset-packagist.dev/dev-master/badge.svg)](https://www.versioneye.com/php/hiqdev:asset-packagist.dev/dev-master)
 
 ## Installation
 
