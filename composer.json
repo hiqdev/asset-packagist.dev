@@ -1,6 +1,6 @@
 {
     "name": "hiqdev/asset-packagist.org",
-    "type": "project",
+    "type": "yii2-extension",
     "description": "asset-packagist.org",
     "homepage": "http://asset-packagist.org/",
     "license": "BSD-3-Clause",
