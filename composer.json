@@ -62,9 +62,6 @@
             "params": [
                 "src/config/params.php",
                 "?src/config/params-local.php"
-            ],
-            "hidev": [
-                "src/config/hidev.php"
             ]
         }
     },
