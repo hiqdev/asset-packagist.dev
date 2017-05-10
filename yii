@@ -10,7 +10,7 @@
 
 require __DIR__ . '/src/config/bootstrap.php';
 
-$config = array_merge(require \hiqdev\composer\config\Builder::path('hidev'), [
+$config = array_merge(require \hiqdev\composer\config\Builder::path('console'), [
     'basePath' => __DIR__
 ]);
 
