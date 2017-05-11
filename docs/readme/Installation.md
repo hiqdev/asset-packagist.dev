@@ -1,4 +1,4 @@
-Create the DB in MySQL:
+### Create the DB in MySQL:
 
 ```sql
 CREATE DATABASE asset_packagist;
@@ -7,12 +7,13 @@ GRANT ALL PRIVILEGES ON asset_packagist.* TO 'asset-packagist'@'localhost';
 FLUSH PRIVILEGES;
 ```
 
-Clone this project:
+### Create the project with composer:
 
 ```sh
-git clone https://github.com/hiqdev/asset-packagist.dev asset-packagist-directory
-cd asset-packagist-directory
+composer create-project --stability=dev "hiqdev/asset-packagist.dev:*" dir
 ```
+
+### Make configuration tuning:
 
 Create `src/config/params-local.php` with the following content:
 
@@ -30,19 +31,19 @@ cp .env.example
 edit .env
 ```
 
-Install the project:
+### Deploy the project
 
 ```php
-composer update
-./vendor/bin/hidev install
-sudo ./vendor/bin/hidev deploy
+./vendor/bin/hidev deploy
 ```
 
-Configure your web-server and try to fetch your first package from web-interface or using the
-following command:
+Configure your web-server.
+(hidev can install nginx config for you, run `./vendor/bin/hidev nginx/deploy`).
+
+Try to fetch your first package from web-interface or using the following command:
 
 ```sh
-./yii asset-package/update bower jquery
+./vendor/bin/hidev asset-package/update bower jquery
 ```
 
 ### Working with queues
@@ -51,7 +52,7 @@ Some operations such as package update will push tasks to queue.
 Run queue to execute that tasks:
 
 ```bash
-./yii queue/run
+./vendor/bin/hidev queue/run
 ```
 
 It is recommended to run all console commands from the same user you are running the web application
