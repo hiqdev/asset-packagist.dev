@@ -1,9 +1,14 @@
 # hidev internals
-.hidev/composer.json
-.hidev/composer.lock
-.hidev/runtime
-.hidev/vendor
-hidev-local.yml
+/.hidev/composer.json
+/.hidev/composer.lock
+/.hidev/runtime
+/.hidev/vendor
+
+# local config
+/.env
+/hidev-local.yml
+/src/config/params-local.php
+/ssl
 
 # IDE & OS files
 .*.swp
@@ -19,11 +24,9 @@ nbproject
 /runtime/*
 /web/assets/*
 
-# vendor dirs
-vendor
-
-# composer lock files
-composer.lock
+# composer internals
+/composer.lock
+/vendor
 
 # php-cs-fixer cache
 .php_cs.cache
@@ -43,8 +46,3 @@ phpunit.phar
 /src/config/bootstrap.php
 /web/favicon.ico
 /web/index.php
-
-# local configuration
-/.env
-/src/config/params-local.php
-/ssl
