@@ -26,14 +26,14 @@ return [
 
 Copy `.env.example` to `.env` and adjust it:
 
-```bash
+```sh
 cp .env.example
 edit .env
 ```
 
 ### Deploy the project
 
-```php
+```sh
 ./vendor/bin/hidev deploy
 ```
 
@@ -51,7 +51,7 @@ Try to fetch your first package from web-interface or using the following comman
 Some operations such as package update will push tasks to queue.
 Run queue to execute that tasks:
 
-```bash
+```sh
 ./vendor/bin/hidev queue/run
 ```
 
