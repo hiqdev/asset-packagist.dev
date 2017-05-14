@@ -38,11 +38,11 @@
         }
     ],
     "require": {
-        "hiqdev/asset-packagist": "dev-master",
         "hiqdev/yii2-theme-original": "~0.1 || dev-master",
         "hiqdev/yii2-yandex-metrika": "~0.1",
         "hiqdev/yii2-asset-hiqdev": "~0.2",
         "hiqdev/yii2-monitoring": "*@dev",
+        "hiqdev/asset-packagist": "dev-master",
         "mito/yii2-sentry": "*"
     },
     "require-dev": {
