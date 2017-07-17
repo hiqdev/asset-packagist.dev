@@ -46,6 +46,7 @@
         "mito/yii2-sentry": "*"
     },
     "require-dev": {
+        "yiisoft/yii2-debug": "^2.0",
         "hiqdev/hidev-php": "~0.6",
         "hiqdev/hidev-hiqdev": "~0.6"
     },
