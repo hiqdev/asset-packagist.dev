@@ -15,20 +15,18 @@ composer create-project --stability=dev "hiqdev/asset-packagist.dev:*" dir
 
 ### Make configuration tuning:
 
-Create `src/config/params-local.php` with the following content:
-
-```php
-return [
-    'cookieValidationKey'   => 'set_any_random_string_here',
-    'db.password'           => 'GOOD_PASSWORD',
-];
-```
-
 Copy `.env.example` to `.env` and adjust it:
 
 ```sh
 cp .env.example
 edit .env
+```
+
+Be sure to set `COOKIEVALIDATIONKEY` and `DB_PASSWORD`:
+
+```sh
+COOKIEVALIDATIONKEY=GOOD_RANDOM_STRING_HERE
+DB_PASSWORD=YOUR_DB__PASSWORD
 ```
 
 ### Deploy the project
