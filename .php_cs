@@ -1,10 +1,10 @@
 <?php
 
 $header = <<<EOF
-asset-packagist.org
+asset-packagist.dev
 
 @link      http://asset-packagist.org/
-@package   asset-packagist.org
+@package   asset-packagist.dev
 @license   BSD-3-Clause
 @copyright Copyright (c) 2016-2017, HiQDev (http://hiqdev.com/)
 EOF;
@@ -21,11 +21,11 @@ return PhpCsFixer\Config::create()
             'commentType'   => 'PHPDoc',
         ],
         'binary_operator_spaces'                     =>  [
-            'align_double_arrow' => null,
-            'align_equals'       => null,
+            'default' => null,
         ],
         'concat_space'                               =>  ['spacing' => 'one'],
         'array_syntax'                               =>  ['syntax' => 'short'],
+        'phpdoc_no_alias_tag'                        =>  ['replacements' => ['type' => 'var']],
         'blank_line_before_return'                   =>  false,
         'phpdoc_align'                               =>  false,
         'phpdoc_scalar'                              =>  false,
@@ -41,6 +41,8 @@ return PhpCsFixer\Config::create()
         'strict_comparison'                          =>  true,
         'strict_param'                               =>  true,
         'no_multiline_whitespace_before_semicolons'  =>  true,
+        'semicolon_after_instruction'                =>  false,
+        'yoda_style'                                 =>  false,
     ))
     ->setFinder(
         PhpCsFixer\Finder::create()
