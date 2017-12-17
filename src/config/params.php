@@ -8,7 +8,7 @@
  * @copyright Copyright (c) 2016-2017, HiQDev (http://hiqdev.com/)
  */
 
-$defaults = [
+return [
     'cookieValidationKey'   => null,
 
     'debug.enabled'         => false,
@@ -21,11 +21,3 @@ $defaults = [
     'monitoring.email.to'   => null,
     'monitoring.email.from' => null,
 ];
-
-$params = [];
-foreach ($defaults as $key => $default) {
-    $envKey = strtoupper(strtr($key, '.', '_'));
-    $params[$key] = isset($_ENV[$envKey]) ? $_ENV[$envKey] : $default;
-}
-
-return $params;
