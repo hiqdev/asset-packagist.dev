@@ -69,7 +69,7 @@ to prevent permissions problems in `web/p` directory.
 
 ### Known bugs:
 
-Just skip red error messages `Couldn't read ...`, they are unimportant.
+Just skip yellow warnings `Couldn't read ...` - they are unimportant.
 
 ## License
 
