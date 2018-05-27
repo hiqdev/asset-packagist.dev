@@ -6,7 +6,7 @@ asset-packagist.dev
 @link      http://asset-packagist.org/
 @package   asset-packagist.dev
 @license   BSD-3-Clause
-@copyright Copyright (c) 2016-2017, HiQDev (http://hiqdev.com/)
+@copyright Copyright (c) 2016-2018, HiQDev (http://hiqdev.com/)
 EOF;
 
 return PhpCsFixer\Config::create()
