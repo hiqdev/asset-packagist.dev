@@ -29,7 +29,7 @@ composer create-project --stability=dev "hiqdev/asset-packagist.dev:*" dir
 Copy `.env.example` to `.env` and adjust it:
 
 ```sh
-cp .env.example
+cp .env.example .env
 edit .env
 ```
 
