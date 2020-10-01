@@ -1,0 +1,64 @@
+version: '3.4'
+
+x-volumes:
+  &volumes
+  - ./:/app:rw
+  - ./.docker/ssh:/var/www/.ssh:ro
+  - ./.docker/ssh:/root/.ssh:ro
+  - ./.docker/composer:/var/www/.composer:rw
+
+
+services:
+  nginx:
+    image: nginx:latest
+    ports:
+      - 3813:80
+    networks:
+      local-network:
+    volumes:
+      - ./:/app:ro
+      - ./.docker/nginx:/etc/nginx/conf.d:ro
+
+  php-fpm:
+    build:
+      context: .docker/php-fpm
+    networks:
+      local-network:
+        aliases:
+          - local-php-fpm
+    volumes: *volumes
+
+  queue:
+    build:
+      context: .docker/php-cli
+    restart: unless-stopped
+    networks:
+      local-network:
+    user: www-data
+    volumes: *volumes
+    entrypoint: ["timeout", "-k", "5m", "-s", "9", "20m", "./vendor/bin/hidev", "queue/run"]
+
+  cli:
+    build:
+      context: .docker/php-cli
+    networks:
+      local-network:
+    user: www-data
+    volumes: *volumes
+
+  mysql:
+    image: mysql:5.7
+    networks:
+      local-network:
+    volumes:
+      - ./.docker/mysql-data:/var/lib/mysql
+      - ./.docker/mysql-dump:/docker-entrypoint-initdb.d
+    environment:
+      - "MYSQL_ROOT_PASSWORD=assetpackagist"
+      - "MYSQL_USER=asset"
+      - "MYSQL_PASSWORD=asset"
+      - "MYSQL_DATABASE=asset"
+
+networks:
+  local-network:
+    driver: bridge
