@@ -52,7 +52,6 @@ services:
       local-network:
     volumes:
       - ./.docker/mysql-data:/var/lib/mysql
-      - ./.docker/mysql-dump:/docker-entrypoint-initdb.d
     environment:
       - "MYSQL_ROOT_PASSWORD=assetpackagist"
       - "MYSQL_USER=asset"

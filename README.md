@@ -40,19 +40,25 @@ COOKIEVALIDATIONKEY=GOOD_RANDOM_STRING_HERE
 DB_PASSWORD=YOUR_DB__PASSWORD
 ```
 
-### Deploy the project
+Put your SSH private key into `.docker/ssh/id_rsa`, make sure to set owner root and chmod 600.
 
 ```sh
-./vendor/bin/hidev deploy
+mkdir .docker/ssh
+cp ~/Desktop/id_rsa .docker/ssh/id_rsa
+chown -R root:root .docker/ssh
+chmod 600 .docker/ssh/id_rsa
 ```
 
-Configure your web-server.
-(hidev can install nginx config for you, run `./vendor/bin/hidev nginx/deploy`).
+### Deploy the project
+
+```
+docker-compose up -d --scale queue=4
+```
 
 Try to fetch your first package from web-interface or using the following command:
 
 ```sh
-./vendor/bin/hidev asset-package/update bower jquery
+docker-compose run --rm cli ./vendor/bin/hidev asset-package/update bower jquery
 ```
 
 ### Working with queues
