@@ -43,7 +43,7 @@
         "hiqdev/yii2-asset-hiqdev": "~0.2",
         "hiqdev/yii2-monitoring": "*@dev",
         "hiqdev/asset-packagist": "dev-master || dev-refresh",
-        "mito/yii2-sentry": "*"
+        "sentry/sdk": "^3.3"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "^2.0",
