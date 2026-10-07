@@ -42,7 +42,7 @@
         "hiqdev/yii2-yandex-metrika": "~0.1",
         "hiqdev/yii2-asset-hiqdev": "~0.2",
         "hiqdev/yii2-monitoring": "*@dev",
-        "hiqdev/asset-packagist": "dev-master || dev-refresh",
+        "hiqdev/asset-packagist": "dev-master",
         "sentry/sdk": "^3.3"
     },
     "require-dev": {
